@@ -323,24 +323,24 @@
                         </p>
                     </form><!--Form End-->
                </div><!--box End-->
-               <!-- <div class="col-xm-4">
+                <div class="col-xs-4">
                     <a href="#" class="thumb">
                       <img src="admin_area/product_images/1.jpg" class="img-responsive" >
 
                     </a>
                 </div>
-                <div class="col-xm-4">
+                <div class="col-xs-4">
                     <a href="#" class="thumb">
                       <img src="admin_area/product_images/1.jpg" class="img-responsive">
 
                     </a>
                 </div>
-                <div class="col-xm-4">
+                <div class="col-xs-4">
                     <a href="#" class="thumb">
                       <img src="admin_area/product_images/1.jpg" class="img-responsive">
 
                     </a>
-            </div>-->
+            </div>
             </div>
             
     </div><br>
