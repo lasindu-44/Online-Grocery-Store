@@ -138,7 +138,39 @@
                                       <h1>Shopping Cart</h1>
                                       <p class="text-muted">Currently you have 3 item(s) in your cart.</p>
                                       <div class="table-responsive">
-                                          
+                                          <table class="table">
+                                              <thead>
+                                                  <tr>
+                                                      <th colspan="2">Product</th>
+                                                      <th>Quantity</th>
+                                                      <th>Unit Prise</th>
+                                                      <th colspan="1">Delete</th>
+                                                      <th colspan="1">Sub Total</th>
+                                                  </tr>
+
+                                              </thead>
+                                              <tbody>
+                                                  <tr>
+                                                      <td><img src="admin_area/product_images/2.jpg"></td>
+                                                      <td>Cocunt Gram 100g</td>
+                                                      <td>100g</td>
+                                                      <td>INR 200</td>
+                                                      <td><input type="checkbox" name="remove[]"></td>
+                                                      <td>INR 398</td>
+
+                                                  </tr>
+                                                  <tr>
+                                                      <td><img src="admin_area/product_images/2.jpg"></td>
+                                                      <td>Cocunt Gram 100g</td>
+                                                      <td>100g</td>
+                                                      <td>INR 200</td>
+                                                      <td><input type="checkbox" name="remove[]"></td>
+                                                      <td>INR 398</td>
+
+                                                  </tr>
+                                              </tbody>
+
+                                          </table>
                                       </div>
 
                                   </form>
