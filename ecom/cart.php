@@ -132,112 +132,23 @@
 
                          </div><!--col-md-12 End-->
 
-                                 <!--Side Menu start-->
+                          <div class="col-md-9" id="cart">
+                              <div class="box">
+                                  <form action="cart.php" method="post" enctype="multipart-form-data">
+                                      <h1>Shopping Cart</h1>
+                                      <p class="text-muted">Currently you have 3 item(s) in your cart.</p>
+                                      <div class="table-responsive">
+                                          
+                                      </div>
 
-                                 <div class="col-md-3"><!--col-md-3 start-->
+                                  </form>
+                              </div>
 
-                                 <div class="panel panel-default sidebar-menu"><!-- panel panel-default sidebar-menu start-->
-    <div class="panel-heading"><!-- panel heading start-->
-        <h3 class="panel-title">Product Categories</h3>
-    </div><!-- panel  heading end-->
-    <div class="panel-body">
-    <nav id="sidemenu">
 
-                              <label for="btn-1" class="button">Shoes
-                               <span class="fa fa-caret-down"></span>
-                            </label>
-                        <input type= "checkbox" id="btn-1">
-                            <ul class="menu">
-                                 <li><a href="shop.php">Home</a></li>
-                                 <li><a href="#">Pages</a></li>
-                                 
-                            </ul>
-                            <label for="btn-2" class="button">T-Shirts
-                               <span class="fa fa-caret-down"></span>
-                            </label>
-                        <input type= "checkbox" id="btn-2">
-                            <ul class="menu">
-                                 <li><a href="#">Home</a></li>
-                                 <li><a href="#">Pages</a></li>
-                                     
-                            </ul>
-                            <label for="btn-3" class="button">Frockes
-                               <span class="fa fa-caret-down"></span>
-                            </label>
-                        <input type= "checkbox" id="btn-3">
-                            <ul class="menu">
-                                 <li><a href="#">Home</a></li>
-                                 <li><a href="#">Pages</a></li>
-                                     
-                            </ul>
-                            <label for="btn-4" class="button">Trousers
-                               <span class="fa fa-caret-down"></span>
-                            </label>
-                        <input type= "checkbox" id="btn-4">
-                            <ul class="menu">
-                                 <li><a href="#">Home</a></li>
-                                 <li><a href="#">Pages</a></li>
-                                     
-                            </ul>
-                            <label for="btn-5" class="button">Trousers
-                               <span class="fa fa-caret-down"></span>
-                            </label>
-                        <input type= "checkbox" id="btn-5">
-                            <ul class="menu">
-                                 <li><a href="#">Home</a></li>
-                                 <li><a href="#">Pages</a></li>
-                                     
-                            </ul>
-                            <label for="btn-6" class="button">Trousers
-                               <span class="fa fa-caret-down"></span>
-                            </label>
-                        <input type= "checkbox" id="btn-6">
-                            <ul class="menu">
-                                 <li><a href="#">Home</a></li>
-                                 <li><a href="#">Pages</a></li>
-                                     
-                            </ul>
-                            <label for="btn-7" class="button">Trousers
-                               <span class="fa fa-caret-down"></span>
-                            </label>
-                        <input type= "checkbox" id="btn-7">
-                            <ul class="menu">
-                                 <li><a href="#">Home</a></li>
-                                 <li><a href="#">Pages</a></li>
-                                     
-                            </ul>
-                            <label for="btn-8" class="button">Trousers
-                               <span class="fa fa-caret-down"></span>
-                            </label>
-                        <input type= "checkbox" id="btn-8">
-                            <ul class="menu">
-                                 <li><a href="#">Home</a></li>
-                                 <li><a href="#">Pages</a></li>
-                                     
-                            </ul>
-                        </nav>
-    </div>
-</div><!-- panel panel-default sidebar-menu start-->
-<div class="panel panel-default sidebar-menu"><!-- panel panel-default sidebar-menu start-->
-    <div class="panel-heading"><!-- panel heading start-->
-        <h3 class="panel-title"> Categories</h3>
-    </div><!-- panel  heading end-->
-    <div class="panel-body">
-        <ul class="nav nav-pills nav-stacked category-menu">
-            <li><a href="shop.php">Men</a></li>
-            <li><a href="shop.php">Women</a></li>
-            <li><a href="shop.php">Kids</a></li>
-            <li><a href="shop.php">Others</a></li>
-            
-        </ul>
-    </div>
-</div><!-- panel panel-default sidebar-menu start-->
-                        
-                    </div><!--col-md-3 End-->
+                          </div>       
 
-                                   <!--Side Menu End-->
-
-                                   </div><!--Container End-->
+                                   
+                        </div><!--Container End-->
                  </div><!--Content End-->
 
                   <!--Footer start-->
