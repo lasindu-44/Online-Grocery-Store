@@ -132,12 +132,12 @@
 
                          </div><!--col-md-12 End-->
 
-                          <div class="col-md-9" id="cart">
+                          <div class="col-md-9" id="cart"><!--col-md-9 start--> 
                               <div class="box">
                                   <form action="cart.php" method="post" enctype="multipart-form-data">
                                       <h1>Shopping Cart</h1>
                                       <p class="text-muted">Currently you have 3 item(s) in your cart.</p>
-                                      <div class="table-responsive">
+                                      <div class="table-responsive"><!--table-responsive start-->
                                           <table class="table">
                                               <thead>
                                                   <tr>
@@ -169,15 +169,121 @@
 
                                                   </tr>
                                               </tbody>
+                                              <tfoot>
+                                                  <tr>
+                                                      <th colspan="5">Total</th>
+                                                      <th colspan="2">INR 398</th>
+
+                                                  </tr>
+                                              </tfoot>
 
                                           </table>
+                                      </div><!--table-responsive End-->
+                                      <div class="box-footer">
+                                          <div class="pull-left"><!--pull-left Start-->
+                                              <a href="index.php" class="btn btn-default">
+                                                  <i class="fa fa-chevron-left">Continue Shopping</i>
+                                              </a>
+                                          </div><!--pull-left End-->
+                                          <div class="pull-right">
+                                                <button class="btn btn-default" type="submit" name="update" value="Update Cart">
+                                                    <i class="fa fa-refresh">Update Cart</i>
+                                                </button>
+                                                <a href="checkout.php" class="btn  btn-primary">
+                                                    Proceed to checkout<i class="fa fa-chevron-right"></i>
+                                                </a>
+                                          </div>
                                       </div>
 
                                   </form>
                               </div>
+                              <div id="row same-height-row"><!-- same-height-row start-->
+               <div class="col-md-3 col-sm-6"><!--col-md-3 col-sm-6 start-->
+                   <div class="box same-height headline"><!--box same-height headline start-->
+                       <h3 class="text-center">You Also Like This Products</h3>
+                   </div><!--box same-height headline End-->
+               </div><!--col-md-3 col-sm-6 end-->
+               <div class="center-responsive col-md-3"><!--center-responsive col-md-3 start-->
+                 <div class="product same-height">
+                     <a href="">
+                         <img src="admin_area/product_images/2.jpg" class="img-responsive">
+                     </a>
+                     <div class="text">
+                         <h3><a href="details.php">Coconut</a></h3>
+                         <p class="price">INR 199</p>
+                     </div>
+                 </div>
+    
+
+               </div><!--center-responsive col-md-3 End-->
+               <div class="center-responsive col-md-3"><!--center-responsive col-md-3 start-->
+                 <div class="product same-height">
+                     <a href="">
+                         <img src="admin_area/product_images/2.jpg" class="img-responsive">
+                     </a>
+                     <div class="text">
+                         <h3><a href="details.php">Coconut</a></h3>
+                         <p class="price">INR 199</p>
+                     </div>
+                 </div>
+    
+
+               </div><!--center-responsive col-md-3 End-->
+
+               <div class="center-responsive col-md-3"><!--center-responsive col-md-3 start-->
+                 <div class="product same-height">
+                     <a href="">
+                         <img src="admin_area/product_images/2.jpg" class="img-responsive">
+                     </a>
+                     <div class="text">
+                         <h3><a href="details.php">Coconut</a></h3>
+                         <p class="price">INR 199</p>
+                     </div>
+                 </div>
+    
+
+               </div><!--center-responsive col-md-3 End-->
+
+            </div><!-- same-height-row End-->
 
 
-                          </div>       
+         </div>   <!--col-md-9 End--> 
+                          
+                          <div class="col-md-3"><!--col-md-3 start--> 
+                          <div class="box" id="order-summary">
+                              <div class="box-header">
+                                  <h3>Order Summary</h3>
+                              </div>
+                              <p class="text-muted">
+                                  Shipping and Additional costs are calculated based on the values you have entered
+                              </p>
+                              <div class="table-responsive">
+                                  <table class="table">
+                                      <tbody>
+                                          <tr>
+                                              <td>Order Subtotal</td>
+                                              <th>INR 398</th>
+                                          </tr>
+                                          <tr>
+                                              <td>Shipping and handling</td>
+                                              <td>INR 0 </td>
+                                          </tr>
+                                          <tr>
+                                              <td>Tax</td>
+                                              <td>INR 0</td>
+                                          </tr>
+                                          <tr>
+                                              <td>Total</td>
+                                              <th>INR 398</th>
+                                          </tr>
+                                      </tbody>
+                                  </table>
+
+                              </div>
+                          </div>
+
+
+                          </div><!--col-md-3 End--> 
 
                                    
                         </div><!--Container End-->
